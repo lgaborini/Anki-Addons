@@ -103,7 +103,7 @@ class Setup(object):
         mw.form.menuTools.addAction(action)
 
         # Setup config button
-        mw.addonManager.setConfigAction('ImageResizer', self._settings)
+        mw.addonManager.setConfigAction('1214357311', self._settings)
 
     def setupFunctions(self, imageResizer):
         """Replace functions in anki
